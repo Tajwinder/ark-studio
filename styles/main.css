@@ -10,19 +10,22 @@ header{
   
 }
 .nav_bar{
+    position: fixed;
+    right: 0px;
     height: 90px;
     width: inherit;
     background-color: rgba(252, 250, 250, 0.7);
 }
 #logo{
     margin-left: 250px;
+    margin-right: 527px;
 }
 
 header nav .nav_list{
     
     display: flex;
     float :right;
-    padding-right:100px;
+    padding-right:98px;
     
 }
 header nav .nav_list li{
@@ -58,7 +61,7 @@ header nav .nav_list li a{
 }
 .services_wrapper{
     text-align: center;
-    margin: 50px auto;
+    margin: 100px auto;
     width:1120PX;
 }
 .services_wrapper ul{
@@ -78,7 +81,7 @@ header nav .nav_list li a{
 .testimonials_wrapper{
     text-align: center;
     width:60%;
-    margin: 50px auto;
+    margin: 100px auto;
    
 }
 .testimonials_wrapper ul{

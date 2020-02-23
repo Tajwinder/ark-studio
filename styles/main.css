@@ -46,25 +46,25 @@ header nav .nav_list li a{
     
 
 }
-.cta_text{
+#cta_text{
     margin: 0 560px 0 20px;
     line-height: 3;
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
    
 }
-.cta_link{
+#cta_link{
     background-color: skyblue;
     padding: 15px 50px;
     color: white;
     text-decoration: none;
 }
-.services_wrapper{
+.services wrapper{
     text-align: center;
     margin: 100px auto;
     width:1120PX;
 }
-.services_wrapper ul{
+.services wrapper ul{
     display: flex;
     justify-content: space-between;
     margin: 0px;
@@ -78,13 +78,13 @@ header nav .nav_list li a{
 .recent_work img{
     width:20%;
 }
-.testimonials_wrapper{
+.testimonials wrapper{
     text-align: center;
     width:60%;
     margin: 100px auto;
    
 }
-.testimonials_wrapper ul{
+.testimonials wrapper ul{
     display: flex;
    list-style: none;
    margin: 0px;
@@ -95,11 +95,11 @@ header nav .nav_list li a{
  
    
 }
-.testimonials_wrapper ul figure .name{
+.testimonials wrapper ul figure .name{
     font-weight: bolder;
     font-size: 1.2em;
 }
-.testimonials_wrapper ul figure .clients{
+.testimonials wrapper ul figure .clients{
     border-radius: 50%;
 }
 footer{
